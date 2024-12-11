@@ -40,7 +40,8 @@ After training, the agent demonstrates its learned policy by navigating to the g
 **Docker link**
 https://hub.docker.com/repository/docker/eyuel136/reinforcement_grid_env/general
 
-#Getting Started with Docker
+**Getting Started with Docker**
+
 **Step 1:** Pull the Docker Image
 Pull the prebuilt image from Docker Hub:
 
