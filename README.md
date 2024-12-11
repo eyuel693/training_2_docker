@@ -17,7 +17,7 @@ Dockerized Setup: Pre-configured for easy deployment using Docker.
 
 **How It Works**
 
-Training
+**Training**
 
 The agent is trained over a series of episodes using Q-Learning, updating the Q-table based on the rewards received for its actions. The key parameters include:
 
@@ -33,9 +33,22 @@ Exploration Rate (ε): 0.1
 
 Episodes: 1000
 
-Testing
+**Testing**
 
 After training, the agent demonstrates its learned policy by navigating to the goal, with the path and steps displayed in the console.
 
-Docker link
+**Docker link**
 https://hub.docker.com/repository/docker/eyuel136/reinforcement_grid_env/general
+
+#Getting Started with Docker
+**Step 1:** Pull the Docker Image
+Pull the prebuilt image from Docker Hub:
+
+docker pull eyuel136/reinforcement_grid_env:latest
+
+**Step 2:** Run the Container
+Run the application directly from the container:
+
+docker run --rm eyuel136/reinforcement_grid_env
+
+This will train the agent and display the agent's path to the goal after training.
