@@ -8,21 +8,33 @@ To make the project easily accessible, it is fully containerized with Docker. Th
 **Features**
 
 Q-Learning Implementation: A basic reinforcement learning algorithm to train the agent.
+
 Customizable Environment: Grid size, actions, and learning parameters are easily adjustable.
+
 Path Visualization: The agent's path to the goal is displayed after training.
+
 Dockerized Setup: Pre-configured for easy deployment using Docker.
 
 **How It Works**
+
 Training
+
 The agent is trained over a series of episodes using Q-Learning, updating the Q-table based on the rewards received for its actions. The key parameters include:
 
 Grid Size: 10x10 (can be modified via the GRID_SIZE constant).
+
 Actions: ['up', 'down', 'left', 'right'].
+
 Learning Rate (α): 0.1
+
 Discount Factor (γ): 0.9
+
 Exploration Rate (ε): 0.1
+
 Episodes: 1000
+
 Testing
+
 After training, the agent demonstrates its learned policy by navigating to the goal, with the path and steps displayed in the console.
 
 Docker link
